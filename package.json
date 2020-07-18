@@ -1,0 +1,19 @@
+{
+  "name": "open-blobbed",
+  "version": "0.0.1",
+  "description": "Webpack and babel the open module to remove newer node dependency",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build.js",
+    "build": "node build.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "open": "7.0.4",
+    "webpack": "4.29.6",
+    "source-map-support": "0.5.19",
+    "babel-loader": "8.1.0",
+    "@babel/core": "7.10.5",
+    "@babel/preset-env": "7.10.4"
+  }
+}
